@@ -1,11 +1,12 @@
 [project]
-name = "filesystem"
+name = "websearch"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "asyncio>=4.0.0",
+    "beautifulsoup4>=4.14.2",
+    "lxml>=6.0.2",
     "mcp[cli]>=1.15.0",
-    "pathspec>=0.12.1",
+    "requests>=2.32.5",
 ]
